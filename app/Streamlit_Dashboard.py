@@ -2,9 +2,12 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-file1 = "../data/benin-malanville.csv"
-file2 = "../data/sierraleone-bumbuna.csv"
-file3 = "../data/togo-dapaong_qc.csv"
+# file1 = "../data/benin-malanville.csv"
+# file2 = "../data/sierraleone-bumbuna.csv"
+# file3 = "../data/togo-dapaong_qc.csv"
+file1 = "https://drive.google.com/file/d/1TehlyntL_bzVXTQ6ZfuBXUPcdnXbxh3-/view?usp=sharing"
+file2 = "https://drive.google.com/file/d/1Sg6w7CsR1wEsZN97SIB7oDb_b-yuryDd/view?usp=sharing"
+file3 = "https://drive.google.com/file/d/14X525bS3pkA8WWv-ob-NIQC2DKxJvOiR/view?usp=sharing"
 
 df_benin = pd.read_csv(file1)
 df_sierraleone = pd.read_csv(file2)
